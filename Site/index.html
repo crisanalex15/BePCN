@@ -1,0 +1,45 @@
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Gestionare Date</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Gestionare Date</h2>
+
+      <!-- Adaugă Produs -->
+      <div class="section">
+        <h3>Adaugă Produs</h3>
+        <label for="prod-name">Nume produs</label>
+        <input type="text" id="prod-name" />
+        <label for="prod-price">Preț</label>
+        <input type="number" id="prod-price" />
+        <label for="prod-category">Categorie</label>
+        <input type="text" id="prod-category" />
+        <button onclick="saveProduct()">Adaugă Produs</button>
+      </div>
+
+      <!-- Adaugă Cheltuială -->
+      <div class="section">
+        <h3>Adaugă Cheltuială</h3>
+        <label for="exp-desc">Descriere</label>
+        <input type="text" id="exp-desc" />
+        <label for="exp-amount">Sumă</label>
+        <input type="number" id="exp-amount" />
+        <label for="exp-date">Data</label>
+        <input type="date" id="exp-date" />
+        <button onclick="saveExpense()">Adaugă Cheltuială</button>
+      </div>
+
+      <!-- Notițe rapide -->
+      <div class="section">
+        <h3>Notițe rapide</h3>
+        <textarea id="notes" rows="4" placeholder="Scrie ceva..."></textarea>
+        <button onclick="saveNote()">Salvează Notița</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

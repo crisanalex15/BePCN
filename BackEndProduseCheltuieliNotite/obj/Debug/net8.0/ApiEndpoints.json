@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "AdaugaProdus",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pret",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "qt",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Produse",
+    "RelativePath": "api/Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "AdaugaCheltuiala",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "suma",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Cheltuieli",
+    "RelativePath": "api/Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "AdaugaNotita",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "continut",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Notite",
+    "RelativePath": "api/Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Privacy",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Error",
+    "RelativePath": "api/Home",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
