@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 331,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:45:09.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:44:57.541Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
