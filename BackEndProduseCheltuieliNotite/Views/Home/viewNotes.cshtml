@@ -1,0 +1,34 @@
+﻿@using BackEndProduseCheltuieliNotite.Models.Objects
+@model List<Note>
+
+@{
+    ViewData["Title"] = "Notes";
+}
+<br />
+<div class="text-center">
+    <h1 class="display-4">Notes</h1>
+    <br />
+    <a asp-action="viewNotesCreateEdit" asp-controller="Home" class="btn btn-dark">Add Note</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th />
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var note in Model)
+            {
+                <tr>
+                    <td>@note.Content</td>
+                    <td>
+                        <a asp-action="viewNotesCreateEdit" asp-controller="Home" asp-route-id="@note.Id" class="btn btn-primary">Edit</a> |
+                        <a asp-action="DeleteFunc" asp-controller="Home" asp-route-id="@note.Id" asp-route-type="note" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Back to Overview</a>
+        </tbody>
+
+    </table>

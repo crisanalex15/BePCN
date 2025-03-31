@@ -123,22 +123,21 @@ namespace BackEndProduseCheltuieliNotite.Controllers
         }
 
         //create
+
+        // edit
         public IActionResult viewProductsCreateEdit(int? id)
         {
             if (id == null)
             {
-                return View();
+                return View("viewProductsCreateEdit");
             }
-            else
-            {
-                var product = _context.Products.Find(id);
-                return View(product);
-            }
+            var product = _context.Products.Find(id);
+            return View(product);
         }
-        // edit
-        public IActionResult EditProduct(Product product)
+
+        public IActionResult viewProductsCreateEditForm(Product product)
         {
-            if(product.Id == 0)
+            if (product.Id == 0)
             {
                 _context.Products.Add(product);
             }
@@ -150,13 +149,101 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             return RedirectToAction("viewProducts");
         }
 
-        public IActionResult DeleteProduct(int id)
+        public IActionResult viewExpensesCreateEdit(int? id)
         {
-            var product = _context.Products.Find(id);
-            _context.Products.Remove(product);
-            _context.SaveChanges();
-            return RedirectToAction("viewProducts");
+            var idFind = _context.Expenses.Find(id);
+            if (id == null)
+            {
+                return View("viewExpensesCreateEdit");
+            }
+
+            var expense = _context.Expenses.Find(id);
+            return View(expense);
         }
+
+        public IActionResult viewExpensesCreateEditForm(Expense expense)
+        {
+            if (expense.Id == 0)
+            {
+                _context.Expenses.Add(expense);
+            }
+            else
+            {
+                _context.Expenses.Update(expense);
+            }
+            _context.SaveChanges();
+            return RedirectToAction("viewExpenses");
+        }
+
+
+        public IActionResult DeleteFunc(int id, string type)
+        {
+            // select by type
+            if (type == "product")
+            {
+                var product = _context.Products.Find(id);
+                _context.Products.Remove(product);
+
+                _context.SaveChanges();
+                return RedirectToAction("viewProducts");
+            }
+            else if (type == "expense")
+            {
+                var expense = _context.Expenses.Find(id);
+                _context.Expenses.Remove(expense);
+                _context.SaveChanges();
+                return RedirectToAction("viewExpenses");
+            }
+            else if (type == "note")
+            {
+                var note = _context.Notes.Find(id);
+                _context.Notes.Remove(note);
+                _context.SaveChanges();
+
+                return RedirectToAction("viewNotes");
+            }
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult viewExpenses()
+        {
+            var allExpenses = _context.Expenses.ToList();
+            var expenses = _context.Expenses.OrderBy(e => e.Id).ToList();
+            var totalPrice = allExpenses.Sum(e => e.Price);
+            ViewBag.TotalPrice = totalPrice;
+            return View(allExpenses);
+        }
+
+        public IActionResult viewNotes()
+        {
+            var allNotes = _context.Notes.ToList();
+            return View(allNotes);
+        }
+
+        public IActionResult viewNotesCreateEdit(int? id)
+        {
+            if (id == null)
+            {
+                return View("viewNotesCreateEdit");
+            }
+            var note = _context.Notes.Find(id);
+            return View(note);
+        }
+
+        public IActionResult viewNotesCreateEditForm(Note note)
+        {
+            if (note.Id == 0)
+            {
+                _context.Notes.Add(note);
+            }
+            else
+            {
+                _context.Notes.Update(note);
+            }
+            _context.SaveChanges();
+            return RedirectToAction("viewNotes");
+        }
+
 
         // site things
         public IActionResult GetToApi()

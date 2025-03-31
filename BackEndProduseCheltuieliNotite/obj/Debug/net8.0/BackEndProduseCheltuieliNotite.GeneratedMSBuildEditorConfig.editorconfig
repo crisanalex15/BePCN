@@ -36,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/crisa/ProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/Views/Home/viewExpenses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3RXhwZW5zZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crisa/ProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/Views/Home/viewExpensesCreateEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3RXhwZW5zZXNDcmVhdGVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crisa/ProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/Views/Home/viewNotes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3Tm90ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/crisa/ProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/Views/Home/viewNotesCreateEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3Tm90ZXNDcmVhdGVFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/crisa/ProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/BackEndProduseCheltuieliNotite/Views/Home/viewProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aWV3UHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

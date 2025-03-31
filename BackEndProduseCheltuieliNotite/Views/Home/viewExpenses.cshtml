@@ -1,0 +1,38 @@
+﻿@using BackEndProduseCheltuieliNotite.Models.Objects
+@model List<Expense>
+
+@{
+    ViewData["Title"] = "Expenses";
+}
+<br/>
+<div class="text-center">
+    <h1 class="display-4">Expenses</h1>
+    <p>Total expenses: $@ViewBag.TotalPrice</p>
+    <br />
+    <a asp-action="viewExpensesCreateEdit" asp-controller="Home" class="btn btn-dark">Add Expense</a>
+
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th/>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var expense in Model)
+            {
+                <tr>
+                    <td>@expense.Name</td>
+                    <td>@expense.Price</td>
+                    <td>@expense.Date</td>
+                    <td>
+                            <a asp-action="viewExpensesCreateEdit" asp-controller="Home" asp-route-id="@expense.Id" class="btn btn-primary">Edit</a> |
+                        <a asp-action="DeleteFunc" asp-controller="Home" asp-route-id="@expense.Id" asp-route-type="expense" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Back to Overview</a>
+    </tbody>
+</table>
