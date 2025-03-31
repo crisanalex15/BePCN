@@ -165,3 +165,4 @@ C:\Users\crisa\ProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\BackEndPro
 C:\Users\crisa\ProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\crisa\ProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\crisa\ProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\obj\Debug\net8.0\BackEndProduseCheltuieliNotite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\crisa\ProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\BackEndProduseCheltuieliNotite\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

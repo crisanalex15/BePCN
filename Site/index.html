@@ -39,6 +39,23 @@
         <textarea id="notes" rows="4" placeholder="Scrie ceva..."></textarea>
         <button onclick="saveNote()">Salvează Notița</button>
       </div>
+
+      <!-- Masina (Marca, Model,An,Combustibil,Culoare,NumarInmatriculare) -->
+      <div class="section">
+        <h3>Adaugă Mașină</h3>
+        <label for="car-brand">Marca</label>
+        <input type="text" id="car-brand" />
+        <label for="car-model">Model</label>
+        <input type="text" id="car-model" />
+        <label for="car-year">An</label>
+        <input type="number" id="car-year" />
+        <label for="car-fuel">Combustibil</label>
+        <input type="text" id="car-fuel" />
+        <label for="car-color">Culoare</label>
+        <input type="text" id="car-color" />
+        <label for="car-plate">Număr Înmatriculare</label>
+        <input type="text" id="car-plate" />
+        <button onclick="saveCar()">Adaugă Mașină</button>
     </div>
   </body>
   <script src="script.js"></script>

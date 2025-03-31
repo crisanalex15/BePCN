@@ -8,6 +8,8 @@ namespace BackEndProduseCheltuieliNotite.Controllers
 {
     public class HomeController : Controller
     {
+
+        // BAZA DE DATE + ILOGGER
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
 
@@ -16,6 +18,8 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             _logger = logger;
             _context = context;
         }
+
+        // PRODUSE
 
         [Route("api/produse/adauga")]
         [HttpPost]
@@ -35,6 +39,8 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             var produse = await _context.Products.ToListAsync();
             return Json(produse);
         }
+
+        // CHELTUIELI
 
         [Route("api/cheltuieli/adauga")]
         [HttpPost]
@@ -110,6 +116,49 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             }
         }
 
+        public IActionResult viewProducts()
+        {
+            var allProducts = _context.Products.ToList();
+            return View(allProducts);
+        }
+
+        //create
+        public IActionResult viewProductsCreateEdit(int? id)
+        {
+            if (id == null)
+            {
+                return View();
+            }
+            else
+            {
+                var product = _context.Products.Find(id);
+                return View(product);
+            }
+        }
+        // edit
+        public IActionResult EditProduct(Product product)
+        {
+            if(product.Id == 0)
+            {
+                _context.Products.Add(product);
+            }
+            else
+            {
+                _context.Products.Update(product);
+            }
+            _context.SaveChanges();
+            return RedirectToAction("viewProducts");
+        }
+
+        public IActionResult DeleteProduct(int id)
+        {
+            var product = _context.Products.Find(id);
+            _context.Products.Remove(product);
+            _context.SaveChanges();
+            return RedirectToAction("viewProducts");
+        }
+
+        // site things
         public IActionResult GetToApi()
         {
             return Redirect("/swagger");

@@ -1,0 +1,37 @@
+@using BackEndProduseCheltuieliNotite.Models.Objects
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+<br/>
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    <br />
+    <a asp-action="viewProductsCreateEdit" asp-controller="Home" class="btn btn-dark">Add product</a>
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Quantity</td>
+                <td>
+                    <a asp-action="EditProduct" asp-controller="Home" asp-route-id="@product.Id" class="btn btn-primary">Edit</a> |
+                    <a asp-action="DeleteProduct" asp-controller="Home" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

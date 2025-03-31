@@ -12,6 +12,7 @@ namespace BackEndProduseCheltuieliNotite.Models
         public DbSet<Expense> Expenses { get; set; }
 
         public DbSet<Note> Notes { get; set; }
+
     }
 
 }

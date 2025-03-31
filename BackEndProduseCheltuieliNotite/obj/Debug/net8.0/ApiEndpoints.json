@@ -1,34 +1,8 @@
 [
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "AdaugaProdus",
-    "RelativePath": "api/Home",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "nume",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "pret",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "qt",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Produse",
-    "RelativePath": "api/Home",
+    "Method": "Cheltuieli",
+    "RelativePath": "api/cheltuieli",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -38,7 +12,7 @@
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
     "Method": "AdaugaCheltuiala",
-    "RelativePath": "api/Home",
+    "RelativePath": "api/cheltuieli/adauga",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -63,8 +37,29 @@
   },
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Cheltuieli",
-    "RelativePath": "api/Home",
+    "Method": "Delete",
+    "RelativePath": "api/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
+    "Method": "Notite",
+    "RelativePath": "api/notite",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +69,7 @@
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
     "Method": "AdaugaNotita",
-    "RelativePath": "api/Home",
+    "RelativePath": "api/notite/adauga",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -89,8 +84,8 @@
   },
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Notite",
-    "RelativePath": "api/Home",
+    "Method": "Produse",
+    "RelativePath": "api/produse",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -99,32 +94,28 @@
   },
   {
     "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Index",
-    "RelativePath": "api/Home",
-    "HttpMethod": "",
+    "Method": "AdaugaProdus",
+    "RelativePath": "api/produse/adauga",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Privacy",
-    "RelativePath": "api/Home",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BackEndProduseCheltuieliNotite.Controllers.HomeController",
-    "Method": "Error",
-    "RelativePath": "api/Home",
-    "HttpMethod": "",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "nume",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pret",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "qt",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]
