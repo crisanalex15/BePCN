@@ -136,14 +136,28 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             return View(product);
         }
 
-        public IActionResult SearchProduct(string search)
+        public IActionResult Search(string search, string type)
         {
-            if (search == null)
+               
+            if (type == "product")
             {
-                return RedirectToAction("viewProducts");
+                if (search == null)
+                {
+                    return RedirectToAction("viewProducts");
+                }
+                var products = _context.Products.Where(p => p.Name.Contains(search)).ToList();
+                return View("viewProducts", products);
             }
-            var products = _context.Products.Where(p => p.Name.Contains(search)).ToList();
-            return View("viewProducts", products);
+            if(type == "expense")
+            {
+                if (search == null)
+                {
+                    return RedirectToAction("viewExpenses");
+                }
+                var expenses = _context.Expenses.Where(e => e.Name.Contains(search)).ToList();
+                return View("viewExpenses", expenses);
+            }
+            return View("Index");
 
         }
 

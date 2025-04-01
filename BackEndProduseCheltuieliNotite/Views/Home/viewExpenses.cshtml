@@ -10,6 +10,18 @@
     <p>Total expenses: $@ViewBag.TotalPrice</p>
     <br />
     <a asp-action="viewExpensesCreateEdit" asp-controller="Home" class="btn btn-dark">Add Expense</a>
+    <br/>
+    <br />
+    <form asp-action="Search" asp-controller="Home" asp-route-type="expense">
+        <div class="form-group">
+            <label for="search">Find expense:</label>
+            <input type="text" id="search" name="search" class="form-control mb-1" placeholder="Enter expense name" />
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Search</button>
+        <button asp-action="viewExpenses" asp-controller="Home" class="btn btn-secondary mb-3">Reset</button>
+    </form>
+    <br />
+
 
     <table class="table">
     <thead>
