@@ -127,12 +127,24 @@ namespace BackEndProduseCheltuieliNotite.Controllers
         // edit
         public IActionResult viewProductsCreateEdit(int? id)
         {
-            if (id == null)
+            var idV = _context.Products.FirstOrDefault(p => p.Id == id);
+            if (idV == null)
             {
                 return View("viewProductsCreateEdit");
             }
             var product = _context.Products.Find(id);
             return View(product);
+        }
+
+        public IActionResult SearchProduct(string search)
+        {
+            if (search == null)
+            {
+                return RedirectToAction("viewProducts");
+            }
+            var products = _context.Products.Where(p => p.Name.Contains(search)).ToList();
+            return View("viewProducts", products);
+
         }
 
         public IActionResult viewProductsCreateEditForm(Product product)
@@ -152,7 +164,7 @@ namespace BackEndProduseCheltuieliNotite.Controllers
         public IActionResult viewExpensesCreateEdit(int? id)
         {
             var idFind = _context.Expenses.Find(id);
-            if (id == null)
+            if (idFind == null)
             {
                 return View("viewExpensesCreateEdit");
             }

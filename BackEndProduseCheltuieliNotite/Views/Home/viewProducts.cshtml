@@ -1,16 +1,18 @@
-@using BackEndProduseCheltuieliNotite.Models.Objects
-@model List<Product>
-
-@{
-    ViewData["Title"] = "Products";
-}
-<br/>
 <div class="text-center">
     <h1 class="display-4">Products</h1>
     <br />
     <a asp-action="viewProductsCreateEdit" asp-controller="Home" class="btn btn-dark">Add product</a>
-
-
+    <br />
+    <br /
+    <form  asp-action="SearchProduct" asp-controller="Home">
+        <div class="form-group">
+            <label for="search">Find product:</label>
+            <input type="text" id="search" name="search" class="form-control mb-1" placeholder="Enter product name" />
+        </div>
+        <button type="submit" class="btn btn-primary mb-4">Search</button>
+    </form>
+    <br />
+    
 <table class="table">
     <thead>
         <tr>
