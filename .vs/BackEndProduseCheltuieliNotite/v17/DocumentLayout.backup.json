@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewproductscreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewproductscreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewnotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewnotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewnotescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewnotescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewproductscreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewproductscreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,6 +33,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewexpensescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewexpensescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewexpenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewnotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewnotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|c:\\users\\crisa\\produsecheltuielinotite\\backendprodusecheltuielinotite\\backendprodusecheltuielinotite\\views\\home\\viewnotescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF62FB11-B5B3-47ED-99B3-FA1D276370BF}|BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite.csproj|solutionrelative:backendprodusecheltuielinotite\\views\\home\\viewnotescreateedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 331,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +70,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAmwJ8AAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Program.cs",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Program.cs",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Program.cs*",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Program.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T22:59:05.842Z",
+              "WhenOpened": "2025-04-01T17:04:26.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "viewProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
-              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
-              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml*",
-              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T19:22:58.005Z",
+              "DocumentIndex": 1,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-01T17:03:56.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T11:30:01.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T22:59:05.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "viewProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
+              "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
+              "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
+              "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T19:22:58.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "viewProductsCreateEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProductsCreateEdit.cshtml",
               "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProductsCreateEdit.cshtml",
               "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewProductsCreateEdit.cshtml",
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewProductsCreateEdit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-30T19:29:17.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "viewNotesCreateEdit.cshtml",
               "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotesCreateEdit.cshtml",
               "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotesCreateEdit.cshtml",
@@ -105,12 +153,11 @@
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotesCreateEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T20:54:53.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:54:53.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "viewNotes.cshtml",
               "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotes.cshtml",
               "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotes.cshtml",
@@ -118,12 +165,11 @@
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewNotes.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T20:52:37.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:52:37.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "viewExpenses.cshtml",
               "DocumentMoniker": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpenses.cshtml",
               "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpenses.cshtml",
@@ -131,8 +177,7 @@
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpenses.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T19:57:20.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T19:57:20.264Z"
             },
             {
               "$type": "Document",
@@ -142,10 +187,9 @@
               "RelativeDocumentMoniker": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpensesCreateEdit.cshtml",
               "ToolTip": "C:\\Users\\crisa\\ProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpensesCreateEdit.cshtml",
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\viewExpensesCreateEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T20:42:19.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:42:19.212Z"
             },
             {
               "$type": "Document",
@@ -157,8 +201,7 @@
               "RelativeToolTip": "BackEndProduseCheltuieliNotite\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T19:24:44.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T19:24:44.165Z"
             }
           ]
         },
