@@ -31,9 +31,27 @@ namespace BackEndProduseCheltuieliNotite
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
-            builder.Services.AddDefaultIdentity<Areas.Identity.Data.ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AuthDbContext>();
+            builder.Services.AddDefaultIdentity<Areas.Identity.Data.ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<AuthDbContext>();
 
             builder.Services.AddRazorPages();
+
+
+            // scoti 
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings
+                options.Password.RequireDigit = false;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                // Lockout settings
+                options.Lockout.AllowedForNewUsers = true;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                // User settings
+                options.User.RequireUniqueEmail = true;
+            });
 
             // Add controllers with views
             builder.Services.AddControllersWithViews();

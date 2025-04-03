@@ -4,11 +4,13 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome - PCN -</h1>
+    <p>User id:@ViewData["UserID"]</p>
     <a asp-controller="Home" asp-action="GetToApi" class="btn btn-primary mb-3">API</a>
     <br/>
     <div style="display-4">
         <a asp-controller="Home" asp-action="viewProducts" class="btn btn-dark">Products</a>
         <a asp-controller="Home" asp-action="viewExpenses" class="btn btn-dark">Expenses</a>
         <a asp-controller="Home" asp-action="viewNotes" class="btn btn-dark">Notes</a>
+        <a asp-controller="Home" asp-action="Login" class="btn btn-dark">Login</a>
     </div>
 </div>

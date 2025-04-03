@@ -2,7 +2,7 @@
 namespace BackEndProduseCheltuieliNotite.Models.Objects
 {
 
-public class Expense
+    public class Expense
     {
         [Key]
         public int Id { get; set; }

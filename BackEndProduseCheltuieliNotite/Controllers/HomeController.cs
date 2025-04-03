@@ -1,22 +1,28 @@
 ﻿using System.Diagnostics;
+using BackEndProduseCheltuieliNotite.Areas.Identity.Data;
 using BackEndProduseCheltuieliNotite.Models;
 using BackEndProduseCheltuieliNotite.Models.Objects;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BackEndProduseCheltuieliNotite.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
 
         // BAZA DE DATE + ILOGGER
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _logger = logger;
             _context = context;
+            this._userManager = userManager;
         }
 
         // PRODUSE
@@ -25,7 +31,7 @@ namespace BackEndProduseCheltuieliNotite.Controllers
         [HttpPost]
         public async Task<IActionResult> AdaugaProdus(string nume, decimal pret, int qt)
         {
-            var produs = new Product { Name = nume, Price = pret, Quantity= qt };
+            var produs = new Product { Name = nume, Price = pret, Quantity = qt };
             _context.Products.Add(produs);
             await _context.SaveChangesAsync();
 
@@ -88,7 +94,7 @@ namespace BackEndProduseCheltuieliNotite.Controllers
                     var product = await _context.Products.FindAsync(id);
                     if (product == null)
                         return Json(new { succes = false, mesaj = "Produsul nu a fost găsit!" });
-                    
+
                     _context.Products.Remove(product);
                     await _context.SaveChangesAsync();
                     return Json(new { succes = true, mesaj = "Produsul a fost șters cu succes!" });
@@ -97,7 +103,7 @@ namespace BackEndProduseCheltuieliNotite.Controllers
                     var expense = await _context.Expenses.FindAsync(id);
                     if (expense == null)
                         return Json(new { succes = false, mesaj = "Cheltuiala nu a fost găsită!" });
-                    
+
                     _context.Expenses.Remove(expense);
                     await _context.SaveChangesAsync();
                     return Json(new { succes = true, mesaj = "Cheltuiala a fost ștearsă cu succes!" });
@@ -106,7 +112,7 @@ namespace BackEndProduseCheltuieliNotite.Controllers
                     var note = await _context.Notes.FindAsync(id);
                     if (note == null)
                         return Json(new { succes = false, mesaj = "Notița nu a fost găsită!" });
-                    
+
                     _context.Notes.Remove(note);
                     await _context.SaveChangesAsync();
                     return Json(new { succes = true, mesaj = "Notița a fost ștearsă cu succes!" });
@@ -136,29 +142,38 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             return View(product);
         }
 
-        public IActionResult Search(string search, string type)
+        public IActionResult Search(string? search, string? type)
         {
-               
-            if (type == "product")
+            if (string.IsNullOrEmpty(type))
             {
-                if (search == null)
+                return View("Index");
+            }
+
+            if (type.ToLower() == "product")
+            {
+                if (string.IsNullOrEmpty(search))
                 {
                     return RedirectToAction("viewProducts");
                 }
-                var products = _context.Products.Where(p => p.Name.Contains(search)).ToList();
+                var products = _context.Products
+                    .Where(p => p.Name != null && p.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
                 return View("viewProducts", products);
             }
-            if(type == "expense")
+
+            if (type.ToLower() == "expense")
             {
-                if (search == null)
+                if (string.IsNullOrEmpty(search))
                 {
                     return RedirectToAction("viewExpenses");
                 }
-                var expenses = _context.Expenses.Where(e => e.Name.Contains(search)).ToList();
+                var expenses = _context.Expenses
+                    .Where(e => e.Name != null && e.Name.Contains(search, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
                 return View("viewExpenses", expenses);
             }
-            return View("Index");
 
+            return View("Index");
         }
 
         public IActionResult viewProductsCreateEditForm(Product product)
@@ -208,6 +223,10 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             if (type == "product")
             {
                 var product = _context.Products.Find(id);
+                if (product == null)
+                {
+                    return RedirectToAction("viewProducts");
+                }
                 _context.Products.Remove(product);
 
                 _context.SaveChanges();
@@ -216,6 +235,10 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             else if (type == "expense")
             {
                 var expense = _context.Expenses.Find(id);
+                if (expense == null)
+                {
+                    return RedirectToAction("viewExpenses");
+                }
                 _context.Expenses.Remove(expense);
                 _context.SaveChanges();
                 return RedirectToAction("viewExpenses");
@@ -223,6 +246,10 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             else if (type == "note")
             {
                 var note = _context.Notes.Find(id);
+                if (note == null)
+                {
+                    return RedirectToAction("viewNotes");
+                }
                 _context.Notes.Remove(note);
                 _context.SaveChanges();
 
@@ -277,8 +304,16 @@ namespace BackEndProduseCheltuieliNotite.Controllers
             return Redirect("/swagger");
         }
 
+        // redirect to login page controller 
+
+        public IActionResult Login()
+        {
+            return Redirect("/Identity/Account/Login");
+        }
+
         public IActionResult Index()
         {
+            ViewData["UserID"]=_userManager.GetUserId(this.User);
             return View();
         }
 

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackEndProduseCheltuieliNotite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c84d165d1ca70754191a0906df1dcc0519bfb6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbb092056660ad0d0df8bf15b5e64d3ec029e42d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackEndProduseCheltuieliNotite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackEndProduseCheltuieliNotite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
